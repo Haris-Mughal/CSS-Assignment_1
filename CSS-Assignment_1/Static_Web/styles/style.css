@@ -1,0 +1,466 @@
+body {
+    background-color: floralwhite;
+}
+
+#block {
+    background-color: white;
+    margin: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#blockL {
+    background-color: white;
+    margin-right: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#navbox {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navitems {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#row1 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-1 {
+    width: 50%;
+    height: 35px;
+    background-color: red;
+}
+
+.box2-1 {
+    width: 50%;
+    height: 35px;
+    background-color: blue;
+}
+
+#row2 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-2 {
+    width: 95%;
+    height: 35px;
+    background-color: green;
+}
+
+.box2-2 {
+    width: 5%;
+    height: 35px;
+    background-color: blue;
+}
+#row2C {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-2C {
+    width: 85%;
+    height: 35px;
+    background-color: green;
+}
+
+.box2-2C {
+    width: 15%;
+    height: 35px;
+    background-color: blue;
+}
+
+.same-boxes {
+    width: 100%;
+    height: 35px;
+    background-color: green;
+}
+
+#row3 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-3 {
+    width: 5%;
+    height: 35px;
+    background-color: red;
+}
+
+.box2-3 {
+    width: 95%;
+    height: 35px;
+    background-color: green;
+}
+
+.box3-3 {
+    width: 5%;
+    height: 35px;
+    background-color: blue;
+}
+#row3C {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-3C {
+    width: 15%;
+    height: 35px;
+    background-color: red;
+}
+
+.box2-3C {
+    width: 70%;
+    height: 35px;
+    background-color: green;
+}
+
+.box3-3C {
+    width: 15%;
+    height: 35px;
+    background-color: blue;
+}
+
+#row4 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-4 {
+    width: 95%;
+    height: 35px;
+    background-color: red;
+}
+
+.box2-4 {
+    width: 5%;
+    height: 35px;
+    background-color: blue;
+    
+}
+#row4C {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-4C {
+    width: 85%;
+    height: 35px;
+    background-color: red;
+}
+
+.box2-4C {
+    width: 15%;
+    height: 35px;
+    background-color: blue;
+    
+}
+#row5 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-5 {
+    width: 100%;
+    height: 35px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2-5 {
+    width: 2.5%;
+    height: 25px;
+    background-color: red;
+    
+}
+#row5C {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-5C {
+    width: 100%;
+    height: 35px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2-5C {
+    width: 8%;
+    height: 25px;
+    background-color: red;
+    
+}
+
+#row6 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-6 {
+    width: 100%;
+    height: 35px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2-6 {
+    width: 5%;
+    height: 35px;
+    background-color: blue;
+    
+}
+#row6C {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-6C {
+    width: 100%;
+    height: 35px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2-6C {
+    width: 15%;
+    height: 35px;
+    background-color: blue;
+    
+}
+
+#row7 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-7 {
+    width: 5%;
+    height: 35px;
+    background-color: red;
+}
+.box2-7 {
+    width: 95%;
+    height: 35px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-7 {
+    width: 100%;
+    height: 10px;
+    background-color: green;
+}
+#row7C {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+
+.box1-7C {
+    width: 15%;
+    height: 35px;
+    background-color: red;
+}
+.box2-7C {
+    width: 85%;
+    height: 35px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-7C {
+    width: 100%;
+    height: 12px;
+    background-color: green;
+}
+
+#row8 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+.box1-8 {
+    width: 4%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box2-8 {
+    width: 20%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box3-8 {
+    width: 4%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box4-8 {
+    width: 20%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box5-8 {
+    width: 4%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box6-8 {
+    width: 20%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box7-8 {
+    width: 4%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box8-8 {
+    width: 20%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box9-8 {
+    width: 4%;
+    height: 35px;
+    background-color: orange; 
+}
+
+
+#row9 {
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+.box1-9 {
+    width: 19%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box2-9 {
+    width: 6%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box3-9 {
+    width: 19%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box4-9 {
+    width: 6%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box5-9 {
+    width: 19%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box6-9 {
+    width: 6%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box7-9 {
+    width: 19%;
+    height: 35px;
+    background-color: orange;
+    
+}
+.box8-9 {
+    width: 6%;
+    height: 35px;
+    background-color: green;
+    
+}
+.box9-9 {
+    width: 19%;
+    height: 35px;
+    background-color: orange;
+    
+}
+
+
+#footer {
+    background-color: gray;
+    margin-top: 100px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer1 {
+    color: white;
+    margin-left: 40%;
+    display: flex;
+
+}
+.footer2 {
+    color: orange;
+    text-decoration: none;
+    margin-left: 42%;
+}
+
